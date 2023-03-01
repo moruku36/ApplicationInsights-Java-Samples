@@ -7,3 +7,4 @@ To run, from this directory:
 export "APPLICATIONINSIGHTS_CONNECTION_STRING=<Copy connection string from Application Insights Resource Overview>"
 java -javaagent:target/agent/applicationinsights-agent.jar -jar target/app.jar
 ```
+# Already Deprolyed in Azure Environment
