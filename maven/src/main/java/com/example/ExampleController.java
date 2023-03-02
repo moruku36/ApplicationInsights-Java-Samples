@@ -9,8 +9,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class ExampleController {
     //脆弱性検知のテストのため適当なクレデンシャル情報を記入 →反応せず、、
-    String secretKey = "mySecretKey12345fadfasdfad";
-    String password = "myPassword12345dfadfweadds";
+    //String secretKey = "mySecretKey12345fadfasdfad";
+    //String password = "myPassword12345dfadfweadds";
 
     @GetMapping("/")
     public String root() {
